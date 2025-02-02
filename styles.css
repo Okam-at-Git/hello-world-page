@@ -11,3 +11,8 @@ body {
     margin: 0 auto;       /* コンテンツを中央に寄せる（必要な場合） */
     padding: 0 20px;      /* 画面の端から余白をとる */
 }
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
