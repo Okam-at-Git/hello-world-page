@@ -6,9 +6,8 @@ body {
 }
 
 .container {
-    background: white;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    display: inline-block;
+    width: 100%;          /* 横幅を100%に */
+    max-width: none;      /* 最大幅の制限を解除（もしくは適宜大きい数値に変更） */
+    margin: 0 auto;       /* コンテンツを中央に寄せる（必要な場合） */
+    padding: 0 20px;      /* 画面の端から余白をとる */
 }
