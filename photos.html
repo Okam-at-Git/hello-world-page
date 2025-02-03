@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>アルバム</title>
+    <link rel="stylesheet" href="photos.css">
+</head>
+<body>
+    <header>
+        <h1>フォトアルバム</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="BEC.html">BEC</a></li>
+                <li><a href="Photos.html">Photos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="gallery">
+            <div class="photo"><img src="images/photo1.jpg" alt="写真1" class="gallery-item"></div>
+            <div class="photo"><img src="images/photo2.jpg" alt="写真2" class="gallery-item"></div>
+            <div class="photo"><img src="images/photo3.jpg" alt="写真3" class="gallery-item"></div>
+            <div class="photo"><img src="images/photo4.jpg" alt="写真4" class="gallery-item"></div>
+            <div class="photo"><img src="images/photo5.jpg" alt="写真5" class="gallery-item"></div>
+            <div class="photo"><img src="images/photo6.jpg" alt="写真6" class="gallery-item"></div>
+        </section>
+    </main>
+
+    <!-- Lightbox (拡大画像表示) -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <img id="lightbox-img" class="lightbox-content">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 私のサイト. All rights reserved.</p>
+    </footer>
+
+    <script src="photos.js"></script>
+</body>
+</html>
