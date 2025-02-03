@@ -110,3 +110,10 @@ footer {
         padding: 10px;
     }
 }
+
+#home-button {
+    display: block;        /* ブロック要素にして幅を制御 */
+    width: max-content;     /* コンテンツ幅に合わせる */
+    margin: 20px auto;      /* 上下に20pxの余白、左右は自動で中央寄せ */
+    text-align: center;     /* リンク内のテキストを中央寄せ（必要に応じて） */
+}
