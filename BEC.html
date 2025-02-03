@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bose-Einstein凝縮とは？</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- MathJax (CDN) -->
+    <script type="text/javascript" async
+      src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Bose-Einstein凝縮とは？</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="#definition">定義</a></li>
+                <li><a href="#distribution">ボース・アインシュタイン分布</a></li>
+                <li><a href="#critical-temperature">臨界温度</a></li>
+                <li><a href="#applications">応用</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="definition">
+            <h2>定義</h2>
+            <p>
+                <strong>Bose-Einstein凝縮（BEC）</strong> とは、ボース粒子（整数スピンを持つ粒子）が極低温で同じ量子状態に凝縮する現象です。
+                これは量子統計力学における重要な現象であり、粒子が統計的に独立でないことによって生じます。
+            </p>
+        </section>
+
+        <section id="distribution">
+            <h2>ボース・アインシュタイン分布</h2>
+            <p>
+                BEC はボース・アインシュタイン統計に基づいており、粒子の占有数分布は次のように表されます：
+            </p>
+            <p class="math">
+                \[
+                n(\epsilon) = \frac{1}{e^{(\epsilon - \mu) / k_B T} - 1}
+                \]
+            </p>
+            <p>
+                ここで：
+                <ul>
+                    <li>\(\epsilon\) : エネルギー準位</li>
+                    <li>\(\mu\) : 化学ポテンシャル</li>
+                    <li>\(k_B\) : ボルツマン定数</li>
+                    <li>\(T\) : 温度</li>
+                </ul>
+                臨界温度以下では、基底状態の粒子数が急激に増大し、マクロな凝縮状態を形成します。
+            </p>
+        </section>
+
+        <section id="critical-temperature">
+            <h2>ボース・アインシュタイン凝縮の臨界温度</h2>
+            <p>
+                BEC が発生する温度（臨界温度 \( T_c \)）は、次の式で与えられます：
+            </p>
+            <p class="math">
+                \[
+                T_c = \frac{h^2}{2\pi m k_B} \left( \frac{n}{\zeta(3/2)} \right)^{2/3}
+                \]
+            </p>
+            <p>
+                ここで：
+                <ul>
+                    <li>\( h \) : プランク定数</li>
+                    <li>\( m \) : 粒子の質量</li>
+                    <li>\( n \) : 粒子の数密度</li>
+                    <li>\(\zeta(3/2) \) : リーマンゼータ関数の値（約 \( 2.612 \)）</li>
+                </ul>
+            </p>
+            <p>
+                この式は、理想ボース気体に対して導かれるものであり、BEC の発生温度を決定する重要なパラメータとなります。
+            </p>
+        </section>
+
+        <section id="applications">
+            <h2>応用</h2>
+            <p>
+                BEC は物理学や技術分野で様々な応用があります。例えば：
+            </p>
+            <ul>
+                <li><strong>超流動：</strong> BEC は粘性ゼロの流体（超流動）として振る舞い、摩擦なしに流れることができます。</li>
+                <li><strong>量子シミュレーション：</strong> 物質の量子特性をシミュレーションするために使用されます。</li>
+                <li><strong>原子時計：</strong> BEC の高精度な制御性を利用して、より正確な原子時計の開発に応用されます。</li>
+                <li><strong>干渉計：</strong> 重力波検出や精密計測において利用されています。</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 私のサイト. All rights reserved.</p>
+    </footer>
+</body>
+</html>
